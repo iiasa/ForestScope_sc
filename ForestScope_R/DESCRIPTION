@@ -1,0 +1,11 @@
+Package: IIASAICP
+Type: Package
+Title: ICP data process 
+Version: 1.0
+Author: Dr. Andre Nakhavali & Dr. Andrey Lessa-Derci-Augustynczik 
+Maintainer: The package maintainer <nakhavali@iiasa.ac.at>
+Description: IIASAICP is an R package specifically designed to facilitate the processing and evaluation of ICP Forest data for use in model evaluation and simulation.This package aims to provide a comprehensive set of user-friendly functions that streamline the workflow for analyzing ICP Forest data.
+License: GNU General Public License (GPL)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
