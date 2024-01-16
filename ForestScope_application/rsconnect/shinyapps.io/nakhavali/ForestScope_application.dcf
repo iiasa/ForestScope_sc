@@ -1,0 +1,13 @@
+name: ForestScope_application
+title: ForestScope_application
+username:
+account: nakhavali
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10897687
+bundleId: 8149435
+url: https://nakhavali.shinyapps.io/ForestScope_application/
+when: 1705410757.03207
+lastSyncTime: 1705410757.03208
+asMultiple: FALSE
+asStatic: FALSE
