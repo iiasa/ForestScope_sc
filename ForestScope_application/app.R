@@ -1149,7 +1149,7 @@ IIASA_ICP_process <- function(isric_soil_d = NULL, icp_data = NULL, chelsa_clim 
   if(length(sp)>0){
     fer <- 0.5
     
-    data <-data.frame( species=sp,	planted=paste0(pl,"-01"),	fertility=fer,	stems_n=st_n,	biom_stem=bio_s,	biom_root=root_s,	biom_foliage=foliage_s, deadwood_carbon=deadwood_c,	deadwood_nitrogen=deadwood_n,	litter_carbon=litter_c,	litter_nitrogen=litter_n,	n_sapling=n_sap,	sapling_wf=sap_wf,	sapling_wr=sap_wr,	sapling_ws=sap_ws)}else{
+    data <-data.frame( species=sp,	planted=paste0(pl,"-01"),	fertility=fer,	stems_n=st_n,	biom_stem=bio_s,	biom_root=root_s,	biom_foliage=foliage_s, deadwood_carbon=deadwood_c,	deadwood_nitrogen=deadwood_n,	litter_carbon=litter_c,	litter_nitrogen=litter_n,	n_sapling=n_sap,	sapling_wf=sap_wf,	sapling_wr=sap_wr,	sapling_ws=sap_ws,        cwd_removal = 0)}else{
       data <-data.frame( species=NA,	planted=NA,	fertility=NA,	stems_n=NA,	biom_stem=NA,	biom_root=NA,	biom_foliage=NA, deadwood_carbon=NA,	deadwood_nitrogen=NA,	litter_carbon=NA,	litter_nitrogen=NA,	n_sapling=NA,	sapling_wf=NA,	sapling_wr=NA,	sapling_ws=NA)  
     }
   d_species <- as_tibble(data)
