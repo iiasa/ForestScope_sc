@@ -11,3 +11,5 @@ LazyData: true
 RoxygenNote: 7.2.3
 Imports:
     readxl
+options(repos = c(CRAN = "https://cran.rstudio.com"))
+
